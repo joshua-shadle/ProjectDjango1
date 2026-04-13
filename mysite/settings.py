@@ -20,7 +20,8 @@ SECRET_KEY = os.getenv("SECRET")
 DEBUG = True
 
 # Local development hosts
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", 'mort771.pythonanywhere.com']
+INSTALLED_APPS = []
 
 # Application definition
 INSTALLED_APPS = [
